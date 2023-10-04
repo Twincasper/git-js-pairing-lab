@@ -71,3 +71,20 @@ const betweenTwentyAndFourty = (between) => {
 }
 
 console.log(betweenTwentyAndFourty(25))
+
+const largest = (int, int2, int3) => {
+    if (int > int2 && int > int3){
+        return int
+      }
+      else if (int2 > int && int2 > int3){
+        return int2
+      }
+      else if (int3 > int && int3 > int2){
+        return int3
+      }
+      else {
+        return int4
+      }
+    }
+    console.log(largest(12,2,3))
+    
