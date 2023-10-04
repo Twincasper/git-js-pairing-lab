@@ -56,3 +56,8 @@ const isNegative = (testNum) => {
     }
 }
 console.log(isNegative(27));
+
+const triangleArea = (base, height) => {
+    return (base * height) / 2
+}
+console.log(triangleArea(8,6))
