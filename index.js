@@ -47,3 +47,12 @@ const add = (add1, add2) => {
     }
 }
 console.log(add(3,2))
+
+const isNegative = (testNum) => {
+    if (testNum < 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isNegative(27));
