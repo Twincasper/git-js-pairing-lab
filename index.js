@@ -30,3 +30,13 @@ const untilNum = (num) => {
     }
 }
 console.log(untilNum(5))
+
+const add = (add1, add2) => {
+    if (add1 != add2){
+        return add1 + add2
+    }
+    else {
+        return (add1 + add2) * 3
+    }
+}
+console.log(add(3,2))
