@@ -22,11 +22,17 @@ const multiplesOfThreeOrFive = () => {
         }
     }
 }
-console.log(multiplesOfThreeOrFive());
+multiplesOfThreeOrFive();
 
 const untilNum = (num) => {
     for (let i = 1; i <= num; i++ ){
         console.log(i)
     }
 }
-console.log(untilNum(5))
+untilNum(5);
+
+const multiply = (multi1, multi2) => {
+    return multi1 * multi2;
+}
+
+console.log(multiply(2,3));
