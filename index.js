@@ -88,3 +88,28 @@ const largest = (int, int2, int3) => {
     }
     console.log(largest(12,2,3))
     
+
+    function printTime() {
+        const now = new Date();
+        let hours = String(now.getHours());
+        let minutes = String(now.getMinutes());
+        let seconds = String(now.getSeconds());
+        if (hours < 10) {
+          hours = "0" + hours;
+        }
+      
+        if (minutes < 10) {
+          minutes = "0" + minutes;
+        }
+      
+        if (seconds < 10) {
+          seconds = "0" + seconds;
+        }
+        const currentTime = `${hours}:${minutes}:${seconds}`;
+        console.log(currentTime);
+      }
+      
+      
+    printTime();
+
+
